@@ -4,7 +4,7 @@ const express = require("express")
 const app = express();
 
 
-const port  = 3001
+const port  = 8080
 
 const host = '0.0.0.0' 
 
@@ -24,3 +24,4 @@ app.get("/api/wait", async (req, res) => {
 app.listen(port, host, () => {
 	console.log("LIstening to port: ", port)
 })
+
